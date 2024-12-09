@@ -35,6 +35,7 @@ namespace Book_Nook.Controllers
             {
                 _context.Categories.Add(category);
                 _context.SaveChanges();
+                TempData["success"] = "Category successfully created";
                 return RedirectToAction("Index");
             }
             return View(category);
@@ -64,6 +65,8 @@ namespace Book_Nook.Controllers
             {
                 _context.Categories.Update(category);
                 _context.SaveChanges();
+                TempData["success"] = "Category successfully updated";
+
                 return RedirectToAction("Index");
             }
             return View(category);
@@ -96,6 +99,7 @@ namespace Book_Nook.Controllers
 
             _context.Categories.Remove(categorytoDelete);
             _context.SaveChanges();
+            TempData["success"] = "Category successfully deleted";
             return RedirectToAction("Index");
             
         }
