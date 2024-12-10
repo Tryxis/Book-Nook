@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Book_Nook.Models
+namespace Book_NookDataAccess.Models
 {
     public class Category
     {

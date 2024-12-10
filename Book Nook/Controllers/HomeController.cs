@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Book_Nook.Models;
+using Book_NookDataAccess.Models;
 
 namespace Book_Nook.Controllers;
 

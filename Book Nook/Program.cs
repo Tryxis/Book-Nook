@@ -1,4 +1,4 @@
-using Book_Nook.Data;
+using Book_NookDataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

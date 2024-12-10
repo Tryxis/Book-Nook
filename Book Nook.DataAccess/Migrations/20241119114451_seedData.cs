@@ -1,10 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace Book_Nook.Migrations
+namespace Book_NookDataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class seedData : Migration

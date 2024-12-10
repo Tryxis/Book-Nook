@@ -1,4 +1,4 @@
-namespace Book_Nook.Models;
+namespace Book_NookDataAccess.Models;
 
 public class ErrorViewModel
 {

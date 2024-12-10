@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Book_Nook.Migrations
+namespace Book_NookDataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class CatTable : Migration
