@@ -19,9 +19,10 @@ namespace Book_NookDataAccess.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
-                new Category{ Id = 1, Name = "Action", DisplayOrder = 1 },
-                new Category{ Id = 2, Name = "Science Fiction", DisplayOrder = 2 },
-                new Category{ Id = 3, Name = "Fantasy", DisplayOrder = 3 }
+                new Category{ Id = 1001, Name = "Action", DisplayOrder = 1 },
+                new Category{ Id = 1002, Name = "Science Fiction", DisplayOrder = 2 },
+                new Category{ Id = 1003, Name = "Fantasy", DisplayOrder = 3 },
+                new Category{ Id = 1004, Name = "Classic", DisplayOrder = 4 }
             );
         }
     }
